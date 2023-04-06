@@ -1,6 +1,6 @@
 # vm-translator
 
-**Translate virtual machine code into x86_64 assembly instructions for IDA to decompile, analyze and debug**
+**Translate virtual machine code into x86_64 assembly instructions for IDA to decompile, analyze and debug in reverse engineering.**
 Currently, bytecode instruction translation is implemented (less than eight registers)
 
 Usage:
