@@ -1,0 +1,90 @@
+{
+    "RISC" : false,
+    "endian" : "little",
+    "word_len" : 4,
+    "num_of_regs" : 4,
+    "ops" : {
+
+        "16" : {
+            "len" : 6,
+            "name" : "ldimm4"
+        },
+        "17" : {
+            "len" : 6,
+            "name" : "stimm4"
+        },
+        "80" : {
+            "len" : 2,
+            "name" : "ldreg"
+        },
+
+        "32" : {
+            "len" : 1,
+            "name" : "stackadd"
+        },
+        "33" : {
+            "len" : 1,
+            "name" : "stacksub"
+        },
+        "36" : {
+            "len" : 1,
+            "name" : "stackand"
+        },
+        "37" : {
+            "len" : 1,
+            "name" : "stackor"
+        },
+        "38" : {
+            "len" : 1,
+            "name" : "stackxor"
+        },
+        "39" : {
+            "len" : 1,
+            "name" : "stackshl"
+        },
+        "40" : {
+            "len" : 1,
+            "name" : "stackshr"
+        },
+        "48" : {
+            "len" : 1,
+            "name" : "stackcmp"
+        },
+
+        "1" : {
+            "len" : 2,
+            "name" : "pushreg"
+        },
+        "2" : {
+            "len" : 2,
+            "name" : "popreg"
+        },
+        "3" : {
+            "len" : 2,
+            "name" : "pushimm4"
+        },
+
+        "64" : {
+            "len" : 5,
+            "name" : "jz_obsimm4"
+        },
+        "65" : {
+            "len" : 5,
+            "name" : "jle_obsimm4"
+        },
+        "66" : {
+            "len" : 5,
+            "name" : "jmp_obsimm4"
+        },
+
+        "96" : {
+            "len" : 1,
+            "name" : "fail"
+        },
+        "97" : {
+            "len" : 1,
+            "name" : "success"
+        }
+
+    }
+}
