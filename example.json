@@ -1,0 +1,57 @@
+{
+    "RISC" : false,
+    "endian" : "little",
+    "word_len" : 4,
+    "num_of_regs" : 4,
+    "ops" : {
+
+        "0" : "nop",
+
+
+        "16" : "ldimm32",
+
+        "17" : "stimm32",
+
+        "80" : "ldfast",
+
+
+        "32" : "stackadd",
+
+        "33" : "stacksub",
+
+        "36" : "stackand",
+
+        "37" : "stackor",
+
+        "38" : "stackxor",
+
+        "39" : "stackshl",
+
+        "40" : "stackshr",
+
+        "48" : "stackcmp",
+
+
+        "1" : "pushreg",
+
+        "2" : "popreg",
+
+        "3" : "pushimm32",
+
+
+        "64" : "jzimm32",
+
+        "65" : "jleimm32",
+
+        "66" : "jmpimm32",
+
+
+        "96" : "fail",
+
+        "97" : "success",
+
+
+        "98" : "nop"
+
+    }
+}

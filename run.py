@@ -7,7 +7,7 @@ if __name__=="__main__":
     parser.add_argument('--bin')
     args = parser.parse_args()
 
-    codes=open(parser.bin,'rb').read()
+    codes=open(args.bin,'rb').read()
 
-    vm=GeneralVM(parser.config)
-    open('output','wb').write(vm.to_x64(codes))
+    vm=GeneralVM(args.config)
+    open('./test/output','wb').write(vm.to_x64(codes))
