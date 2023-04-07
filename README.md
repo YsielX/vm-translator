@@ -4,17 +4,17 @@
 
 Currently, bytecode instruction translation is implemented (less than eight registers)
 
-Usage:
+### Usage:
 
-`python vm_translator.py --instr_set VM.json --bin binarycode`
+`python run.py --config VM.json --bin binarycode`
 
 It will generate a binary file for *x86_64* architecture.
 
 The basic format can be viewed in `non-RISC.json`.
 
-> TODO:
+### TODO:
 1. RISC Analysis
 2. More registers
-3. Refactoring for Object-oriented
+3. ~~Refactoring for Object-oriented~~
 4. Instruction Optimization
 
